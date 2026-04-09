@@ -11,3 +11,23 @@ torch==2.5.1+cu121
 torchaudio==2.5.1+cu121
 torchvision==0.20.1+cu121
 typing-extensions==4.15.0
+
+
+
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+
+# Ollama integration
+ollama
+
+# Optional (if using embeddings / HF models)
+transformers
+huggingface-hub
+
+# Utilities
+python-dotenv
+numpy
+scikit-learn
